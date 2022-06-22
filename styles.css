@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     flex-shrink: 1;
 }
-.header {
+.child-1 {
     display: flex;
     flex: 1;
     align-items: center;
@@ -18,19 +18,21 @@ body {
     flex-wrap: wrap;
     padding: 100px;
     padding-top: 10px;
+    border: 0;
     flex-shrink: 1;
 }
 
-.container-2 {
+.child-2 {
     display: flex;
     flex: auto;
+    flex-wrap: nowrap;
     flex-shrink: 1;
     gap: 30px;
     margin-top: 20px;
     justify-content: space-between;
 }
 
-.left-side{
+.child-3{
     flex: 1 0 40%;
     height: auto;
     flex-shrink: 1;
@@ -70,13 +72,13 @@ button {
     width: 100px;
     height: auto;
     margin: 4px 2px;
-
 }
 
 .placeholder {
     padding: 30px;
     flex: 1 0 40%;
     height: auto;
+    margin: 10px;
     background-color: darkgray;
     color: white;
     display: flex;
@@ -84,3 +86,5 @@ button {
     align-items: center;
     flex-shrink: 1;
 }
+
+
