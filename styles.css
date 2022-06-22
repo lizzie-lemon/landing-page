@@ -125,8 +125,33 @@ button {
 .square {
     height: 200px;
     width: 200px;
-    margin: 20px;
-    background-color: #1f2937;
+    margin-bottom: 10px;
+    background-color: white;
     border: solid 5px #3882f6;
     border-radius: 10px;
+}
+
+.container-3 {
+    color: #1f2937;
+    background-color: #E5E7Eb;
+    padding: 100px;
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    gap: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
