@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.top-links {
+    list-style: none;
+    display: flex;
+    
+}
