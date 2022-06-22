@@ -96,18 +96,34 @@ button {
 .child-4 {
     display: flex;
     flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 
+.subheader {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .squares {
     display: flex;
     flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 
+.text {
+    width: 200px;
+}
 .square {
     height: 200px;
     width: 200px;
     margin: 20px;
     background-color: #1f2937;
     border: solid 5px #3882f6;
+    border-radius: 10px;
 }
