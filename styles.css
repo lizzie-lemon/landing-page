@@ -87,4 +87,25 @@ button {
     flex-shrink: 1;
 }
 
+.container-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
 
+.squares {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 20%;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.square {
+    display: flex;
+    flex-flow: row nowrap;
+}
