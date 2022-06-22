@@ -24,6 +24,7 @@ body {
     flex: auto;
     gap: 30px;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .left-side{
@@ -69,9 +70,9 @@ button {
 }
 
 .placeholder {
-    width: 500px;
+    width: 450px;
     height: auto;
-    padding: 40px;
+    padding: 30px;
     background-color: darkgray;
     color: white;
     display: flex;
