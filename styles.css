@@ -92,12 +92,14 @@ button {
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding: 100px;
+    padding-top: 20px;
+
 }
 .child-4 {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
-    justify-content: space-evenly;
+    gap: 10px;
 }
 
 .subheader {
@@ -105,7 +107,7 @@ button {
     color: #1f2937;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 40px;
+    padding: 40px;
 }
 .squares {
     display: flex;
@@ -113,6 +115,7 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    align-content: center;
     align-items: center;
 }
 
