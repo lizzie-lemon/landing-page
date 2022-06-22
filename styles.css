@@ -14,29 +14,26 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 100px;
     padding-top: 10px;
 }
 
 .container-2 {
     display: flex;
     flex: auto;
-    align-items: center;
-    justify-content: space-between;
     gap: 30px;
+    margin-top: 20px;
 }
 
 .left-side{
-    padding-right: 20px;
-    width: 50%;
-    height: auto;
-    gap: 10px;
+
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    margin-top: 0px;
 }
 
 h4 {
@@ -72,11 +69,10 @@ button {
 .placeholder {
     width: 500px;
     height: auto;
-    margin: 10px;
     padding: 40px;
     background-color: darkgray;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
