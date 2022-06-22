@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex: auto;
     flex-direction: column;
+    flex-shrink: 1;
 }
 .header {
     display: flex;
@@ -18,19 +18,22 @@ body {
     flex-wrap: wrap;
     padding: 100px;
     padding-top: 10px;
+    flex-shrink: 1;
 }
 
 .container-2 {
     display: flex;
     flex: auto;
+    flex-shrink: 1;
     gap: 30px;
     margin-top: 20px;
     justify-content: space-between;
 }
 
 .left-side{
-    width: 500px;
-
+    flex: 1 0 40%;
+    height: auto;
+    flex-shrink: 1;
 }
 
 h1 {
@@ -71,13 +74,13 @@ button {
 }
 
 .placeholder {
-    width: 450px;
-    height: auto;
     padding: 30px;
+    flex: 1 0 40%;
+    height: auto;
     background-color: darkgray;
     color: white;
     display: flex;
-    flex-shrink: inherit;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
