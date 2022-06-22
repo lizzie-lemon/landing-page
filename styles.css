@@ -109,4 +109,5 @@ button {
     width: 200px;
     margin: 20px;
     background-color: #1f2937;
+    border: solid 5px #3882f6;
 }
