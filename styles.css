@@ -7,47 +7,59 @@ body {
 .child-1 {
     display: flex;
     flex: 1;
-    align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 40px;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    height: 150px;
+    width: auto;
+    margin: 0;
 }
 
 .container-1 {
-    background-color: #1f2937;
+    background-color: #e0ffc5;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 100px;
     padding-top: 10px;
     border: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 
 .child-2 {
     display: flex;
-    flex: auto;
+    flex: 1;
     flex-wrap: nowrap;
-    flex-shrink: 1;
+    max-height: 400px;
+    min-height: 300px;
     gap: 30px;
-    margin-top: 20px;
+    margin: 30px;
     justify-content: space-between;
+    align-content: center;
 }
 
 .child-3{
-    flex: 1 0 40%;
     height: auto;
-    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #f9faf8;
+    color: #1f421f;
     margin-top: 0px;
+    display: flex;
 }
 
 h4 {
     font-size: 24px;
-    color: #f9faf8;
+    color: #1f421f;
     align-self: flex-start;
 }
 
@@ -58,13 +70,13 @@ h4 {
 }
 
 .subtext, .top-links {
-    color: #E5E7Eb;
+    color: #1f421f;
     font-size: 18px;
 }
 
 button {
-    background-color: #3882f6;
-    color: #E5E7Eb;
+    background-color: #1f421f;
+    color: #e0ffc5;
     font-size: 16px;
     outline-style: round;
     border-radius: 8px;
@@ -83,16 +95,14 @@ button {
 }
 
 .placeholder {
-    padding: 30px;
-    flex: 1 0 40%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 500px;
     height: auto;
     margin: 10px;
-    background-color: darkgray;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 1;
+    text-align: center;
+    gap: 10px;
 }
 
 .container-2 {
@@ -100,12 +110,16 @@ button {
     display: flex;
     flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
     padding: 100px;
     padding-top: 20px;
 
 }
 .child-4 {
     display: flex;
+    flex: 1;
     flex-wrap: nowrap;
     gap: 10px;
 }
@@ -120,23 +134,25 @@ button {
 .squares {
     display: flex;
     flex: 1;
-    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-content: center;
     align-items: center;
+    justify-content: center;
+    margin: 60px;
+    gap: 20px;
 }
 
-.text {
-    width: 200px;
-}
-.square {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    border: solid 5px #3882f6;
-    border-radius: 10px;
+.matcha-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex: 1;
+    gap: 20px;
+    height: 250px;
+    width: 250px;
 }
 
 .container-3 {
@@ -145,7 +161,7 @@ button {
     padding: 100px;
     display: flex;
     flex: 1;
-    flex-direction: column;
+    flex-flow: column nowrap;
     gap: 20px;
     padding-left: 300px;
     padding-right: 300px;
@@ -156,12 +172,16 @@ button {
     font-weight: lighter;
     font-style: italic;
     text-align: left;
+    flex-shrink: 0;
+    min-width: 300px;
 }
 
 .author {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+    flex-shrink: 0;
+    min-width: 150px;
 }
 
 .container-4 {
@@ -204,4 +224,10 @@ button {
     color: #f9faf8;
     background-color: #1f2937;
     padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1f421f;
 }
